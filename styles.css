@@ -1,0 +1,7 @@
+#main{width:342px;height:342px;margin:auto;margin-bottom:20px;}
+.center{width:342px;height:40px;margin:auto;}
+.box{width:110px;height:110px;border:2px solid black;float:left;padding:0;}
+.secondary{border-left:0;}
+.third{border-top:0;}
+input{width:33.33%;height:33.50%;display:table-cell;float:left;text-align:center;font-size:100%;border:1px solid lightgrey;color:blue;}
+button{width:342px;height:40px;background:#0099ff;border:1px solid #005c99;color:white;}
