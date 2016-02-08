@@ -1,0 +1,116 @@
+<html>
+<head>
+  <title>Sudoku</title>
+  <script type="text/javascript" src='script.js'></script>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <br><br>
+  <div id='main'>
+    <div class='box'>
+      <input type='text' class='row1 col1 sqr1'>
+      <input type='text' class='row1 col2 sqr1'>
+      <input type='text' class='row1 col3 sqr1'>
+      <input type='text' class='row2 col1 sqr1'>
+      <input type='text' class='row2 col2 sqr1'>
+      <input type='text' class='row2 col3 sqr1'>
+      <input type='text' class='row3 col1 sqr1'>
+      <input type='text' class='row3 col2 sqr1'>
+      <input type='text' class='row3 col3 sqr1'>
+    </div>
+    <div class='box secondary'>
+     <input type='text' class='row1 col4 sqr2'>
+     <input type='text' class='row1 col5 sqr2'>
+     <input type='text' class='row1 col6 sqr2'>
+     <input type='text' class='row2 col4 sqr2'>
+     <input type='text' class='row2 col5 sqr2'>
+     <input type='text' class='row2 col6 sqr2'>
+     <input type='text' class='row3 col4 sqr2'>
+     <input type='text' class='row3 col5 sqr2'>
+     <input type='text' class='row3 col6 sqr2'>
+   </div>
+   <div class='box secondary'>
+     <input type='text' class='row1 col7 sqr3'>
+     <input type='text' class='row1 col8 sqr3'>
+     <input type='text' class='row1 col9 sqr3'>
+     <input type='text' class='row2 col7 sqr3'>
+     <input type='text' class='row2 col8 sqr3'>
+     <input type='text' class='row2 col9 sqr3'>
+     <input type='text' class='row3 col7 sqr3'>
+     <input type='text' class='row3 col8 sqr3'>
+     <input type='text' class='row3 col9 sqr3'>
+   </div>
+   <div class='box third'>
+    <input type='text' class='row4 col1 sqr4'>
+    <input type='text' class='row4 col2 sqr4'>
+    <input type='text' class='row4 col3 sqr4'>
+    <input type='text' class='row5 col1 sqr4'>
+    <input type='text' class='row5 col2 sqr4'>
+    <input type='text' class='row5 col3 sqr4'>
+    <input type='text' class='row6 col1 sqr4'>
+    <input type='text' class='row6 col2 sqr4'>
+    <input type='text' class='row6 col3 sqr4'>
+  </div>
+  <div class='box secondary third'>
+    <input type='text' class='row4 col4 sqr5'>
+    <input type='text' class='row4 col5 sqr5'>
+    <input type='text' class='row4 col6 sqr5'>
+    <input type='text' class='row5 col4 sqr5'>
+    <input type='text' class='row5 col5 sqr5'>
+    <input type='text' class='row5 col6 sqr5'>
+    <input type='text' class='row6 col4 sqr5'>
+    <input type='text' class='row6 col5 sqr5'>
+    <input type='text' class='row6 col6 sqr5'>
+  </div>
+  <div class='box secondary third'>
+    <input type='text' class='row4 col7 sqr6'>
+    <input type='text' class='row4 col8 sqr6'>
+    <input type='text' class='row4 col9 sqr6'>
+    <input type='text' class='row5 col7 sqr6'>
+    <input type='text' class='row5 col8 sqr6'>
+    <input type='text' class='row5 col9 sqr6'>
+    <input type='text' class='row6 col7 sqr6'>
+    <input type='text' class='row6 col8 sqr6'>
+    <input type='text' class='row6 col9 sqr6'>
+  </div>
+  <div class='box third'>
+    <input type='text' class='row7 col1 sqr7'>
+    <input type='text' class='row7 col2 sqr7'>
+    <input type='text' class='row7 col3 sqr7'>
+    <input type='text' class='row8 col1 sqr7'>
+    <input type='text' class='row8 col2 sqr7'>
+    <input type='text' class='row8 col3 sqr7'>
+    <input type='text' class='row9 col1 sqr7'>
+    <input type='text' class='row9 col2 sqr7'>
+    <input type='text' class='row9 col3 sqr7'>
+  </div>
+  <div class='box secondary third'>
+    <input type='text' class='row7 col4 sqr8'>
+    <input type='text' class='row7 col5 sqr8'>
+    <input type='text' class='row7 col6 sqr8'>
+    <input type='text' class='row8 col4 sqr8'>
+    <input type='text' class='row8 col5 sqr8'>
+    <input type='text' class='row8 col6 sqr8'>
+    <input type='text' class='row9 col4 sqr8'>
+    <input type='text' class='row9 col5 sqr8'>
+    <input type='text' class='row9 col6 sqr8'>
+  </div>
+  <div class='box secondary third'>
+    <input type='text' class='row7 col7 sqr9'>
+    <input type='text' class='row7 col8 sqr9'>
+    <input type='text' class='row7 col9 sqr9'>
+    <input type='text' class='row8 col7 sqr9'>
+    <input type='text' class='row8 col8 sqr9'>
+    <input type='text' class='row8 col9 sqr9'>
+    <input type='text' class='row9 col7 sqr9'>
+    <input type='text' class='row9 col8 sqr9'>
+    <input type='text' class='row9 col9 sqr9'>
+  </div>
+</div>
+
+<div class="center">
+  <button id='btn' onclick='loop()'>Solve it</button> 
+</div>
+</body>
+</html>
+
